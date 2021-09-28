@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/auth0.v5"
 )
 
 func TestClientGrant(t *testing.T) {

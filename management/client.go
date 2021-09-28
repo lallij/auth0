@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/auth0.v5"
 )
 
 type Client struct {

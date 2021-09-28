@@ -3,7 +3,7 @@ package management
 import (
 	"testing"
 
-	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/auth0.v5"
 )
 
 func TestJob(t *testing.T) {

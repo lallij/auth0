@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"gopkg.in/lallij/auth0.v1"
-	"gopkg.in/lallij/auth0.v1/internal/testing/expect"
+	"gopkg.in/auth0.v5"
+	"gopkg.in/auth0.v5/internal/testing/expect"
 )
 
 func TestTenant(t *testing.T) {
