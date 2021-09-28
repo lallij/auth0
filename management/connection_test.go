@@ -475,7 +475,7 @@ func TestConnectionOptions(t *testing.T) {
 					Secret:              auth0.String("my-secret"),
 					SecretBase64Encoded: auth0.Bool(false),
 				},
-				ForwardRequestInfo: auth0.Bool(true),
+				ForwardReqInfo: auth0.Bool(true),
 			},
 		}
 
@@ -509,7 +509,7 @@ func TestConnectionOptions(t *testing.T) {
 		expect.Expect(t, o.GetGatewayAuthentication().GetAudience(), "test.com/sms-gateway")
 		expect.Expect(t, o.GetGatewayAuthentication().GetSecret(), "my-secret")
 		expect.Expect(t, o.GetGatewayAuthentication().GetSecretBase64Encoded(), false)
-		expect.Expect(t, o.GetForwardRequestInfo(), true)
+		expect.Expect(t, o.GetForwardReqInfo(), true)
 
 		t.Logf("%s\n", s)
 	})
