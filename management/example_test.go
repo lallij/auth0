@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"gopkg.in/auth0.v5"
-	"gopkg.in/auth0.v5/management"
+	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/lallij/auth0.v1/management"
 )
 
 var (

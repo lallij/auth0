@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"gopkg.in/auth0.v5"
+	"gopkg.in/lallij/auth0.v1"
 )
 
 func TestEmailTemplate(t *testing.T) {

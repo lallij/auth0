@@ -3,9 +3,9 @@ package management
 import (
 	"testing"
 
-	"gopkg.in/auth0.v5/internal/testing/expect"
+	"gopkg.in/lallij/auth0.v1/internal/testing/expect"
 
-	"gopkg.in/auth0.v5"
+	"gopkg.in/lallij/auth0.v1"
 )
 
 func TestHook(t *testing.T) {

@@ -3,7 +3,7 @@ package tag
 import (
 	"testing"
 
-	"gopkg.in/auth0.v5/internal/testing/expect"
+	"gopkg.in/lallij/auth0.v1/internal/testing/expect"
 )
 
 type test struct {

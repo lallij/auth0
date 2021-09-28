@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/auth0.v5"
+	"gopkg.in/lallij/auth0.v1"
 )
 
 func TestCustomDomain(t *testing.T) {

@@ -1,4 +1,4 @@
-module gopkg.in/auth0.v5
+module gopkg.in/lallij/auth0.v1
 
 go 1.12
 

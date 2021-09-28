@@ -2,7 +2,7 @@ package management
 
 import (
 	"errors"
-	"gopkg.in/auth0.v5"
+	"gopkg.in/lallij/auth0.v1"
 	"testing"
 	"time"
 )
